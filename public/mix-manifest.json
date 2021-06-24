@@ -1,0 +1,22 @@
+{
+    "/js/auth.js": "/js/auth.js",
+    "/js/cart.js": "/js/cart.js",
+    "/js/exchange.js": "/js/exchange.js",
+    "/js/explore.js": "/js/explore.js",
+    "/js/index.js": "/js/index.js",
+    "/js/login.js": "/js/login.js",
+    "/js/notification.js": "/js/notification.js",
+    "/js/order.js": "/js/order.js",
+    "/js/productById.js": "/js/productById.js",
+    "/js/register.js": "/js/register.js",
+    "/js/setting.js": "/js/setting.js",
+    "/js/store.js": "/js/store.js",
+    "/js/storeById.js": "/js/storeById.js",
+    "/pos/js/index.js": "/pos/js/index.js",
+    "/pos/js/order.js": "/pos/js/order.js",
+    "/pos/js/product.js": "/pos/js/product.js",
+    "/pos/js/productUpload.js": "/pos/js/productUpload.js",
+    "/pos/js/setting.js": "/pos/js/setting.js",
+    "/pos/js/exchange.js": "/pos/js/exchange.js",
+    "/css/app.css": "/css/app.css"
+}

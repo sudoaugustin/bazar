@@ -1,0 +1,22 @@
+const mix = require("laravel-mix");
+
+mix.js("resources/js/auth.js", "public/js")
+    .js("resources/js/cart.js", "public/js")
+    .js("resources/js/exchange.js", "public/js")
+    .js("resources/js/explore.js", "public/js")
+    .js("resources/js/index.js", "public/js")
+    .js("resources/js/login.js", "public/js")
+    .js("resources/js/notification.js", "public/js")
+    .js("resources/js/order.js", "public/js")
+    .js("resources/js/productById.js", "public/js")
+    .js("resources/js/register.js", "public/js")
+    .js("resources/js/setting.js", "public/js")
+    .js("resources/js/store.js", "public/js")
+    .js("resources/js/storeById.js", "public/js")
+    .js("resources/js/pos/index.js", "public/pos/js")
+    .js("resources/js/pos/order.js", "public/pos/js")
+    .js("resources/js/pos/product.js", "public/pos/js")
+    .js("resources/js/pos/productUpload.js", "public/pos/js")
+    .js("resources/js/pos/setting.js", "public/pos/js")
+    .js("resources/js/pos/exchange.js", "public/pos/js")
+    .postCss("resources/css/app.css", "public/css", [require("tailwindcss")]);

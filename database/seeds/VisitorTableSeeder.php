@@ -1,0 +1,270 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class VisitorTableSeeder extends Seeder
+{
+   /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+
+    $Jan=date_create("2020-01-23")->format('Y-m-d H:i:s');
+    $Feb=date_create("2020-02-23")->format('Y-m-d H:i:s');
+    $Mar=date_create("2020-03-23")->format('Y-m-d H:i:s');
+    $Apr=date_create("2020-04-23")->format('Y-m-d H:i:s');
+    $May=date_create("2020-05-23")->format('Y-m-d H:i:s');
+    $Jun=date_create("2020-06-23")->format('Y-m-d H:i:s');
+    $Aug=date_create("2020-08-23")->format('Y-m-d H:i:s');
+    $Sep=date_create("2020-09-23")->format('Y-m-d H:i:s');
+    $Nov=date_create("2020-11-23")->format('Y-m-d H:i:s');
+    $Dec=date_create("2020-12-23")->format('Y-m-d H:i:s');
+
+    $roles=array(
+        [
+          "u_id"=>1,
+          "s_id"=>1,
+          "created_at"=>$Jan
+        ],
+        [
+          "u_id"=>2,
+          "s_id"=>1,
+          "created_at"=>$Feb
+        ],
+        [
+          "u_id"=>2,
+          "s_id"=>1,
+          "created_at"=>$Mar
+        ],
+        [
+          "u_id"=>2,
+          "s_id"=>2,
+          "created_at"=>$Apr
+        ],
+        [
+          "u_id"=>2,
+          "s_id"=>2,
+          "created_at"=>$May
+        ],
+        [
+          "u_id"=>2,
+          "s_id"=>1,
+          "created_at"=>$Jun
+        ],
+        [
+          "u_id"=>2,
+          "s_id"=>2,
+          "created_at"=>$Aug
+        ],
+        [
+          "u_id"=>2,
+          "s_id"=>1,
+          "created_at"=>$Sep
+        ],
+        [
+          "u_id"=>2,
+          "s_id"=>1,
+          "created_at"=>$Nov
+        ],
+        [
+          "u_id"=>2,
+          "s_id"=>1,
+          "created_at"=>$Dec
+        ],
+        [
+            "u_id"=>2,
+            "s_id"=>1,
+            "created_at"=>$Jan
+        ],
+        [
+            "u_id"=>1,
+            "s_id"=>1,
+            "created_at"=>$Feb
+        ],
+        [
+            "u_id"=>2,
+            "s_id"=>1,
+            "created_at"=>$Mar
+        ],
+        [
+            "u_id"=>1,
+            "s_id"=>2,
+            "created_at"=>$Apr
+        ],
+        [
+            "u_id"=>1,
+            "s_id"=>2,
+            "created_at"=>$May
+        ],
+        [
+            "u_id"=>1,
+            "s_id"=>1,
+            "created_at"=>$Jun
+        ],
+        [
+            "u_id"=>1,
+            "s_id"=>2,
+            "created_at"=>$Aug
+        ],
+        [
+            "u_id"=>2,
+            "s_id"=>2,
+            "created_at"=>$Sep
+        ],
+        [
+            "u_id"=>1,
+            "s_id"=>1,
+            "created_at"=>$Nov
+        ],
+        [
+            "u_id"=>1,
+            "s_id"=>1,
+            "created_at"=>$Dec
+        ],
+        [
+          "u_id"=>5,
+          "s_id"=>3,
+          "created_at"=>$Jan
+      ],
+      [
+        "u_id"=>6,
+        "s_id"=>3,
+        "created_at"=>$Jan
+    ],
+    [
+      "u_id"=>8,
+      "s_id"=>3,
+      "created_at"=>$Jan
+  ],
+      [
+          "u_id"=>5,
+          "s_id"=>3,
+          "created_at"=>$Feb
+      ],
+      [
+        "u_id"=>6,
+        "s_id"=>3,
+        "created_at"=>$Feb
+    ],
+      [
+          "u_id"=>4,
+          "s_id"=>3,
+          "created_at"=>$Mar
+      ],
+      [
+        "u_id"=>6,
+        "s_id"=>3,
+        "created_at"=>$Mar
+    ],
+    [
+      "u_id"=>8,
+      "s_id"=>3,
+      "created_at"=>$Mar
+  ],
+      [
+          "u_id"=>4,
+          "s_id"=>3,
+          "created_at"=>$Apr
+      ],
+      [
+          "u_id"=>3,
+          "s_id"=>3,
+          "created_at"=>$May
+      ],
+      [
+        "u_id"=>4,
+        "s_id"=>3,
+        "created_at"=>$May
+    ],
+      [
+          "u_id"=>3,
+          "s_id"=>3,
+          "created_at"=>$Jun
+      ],
+      [
+          "u_id"=>2,
+          "s_id"=>3,
+          "created_at"=>$Aug
+      ],
+      [
+        "u_id"=>4,
+        "s_id"=>3,
+        "created_at"=>$Aug
+    ],
+      [
+          "u_id"=>3,
+          "s_id"=>3,
+          "created_at"=>$Aug
+      ],
+
+      [
+          "u_id"=>2,
+          "s_id"=>3,
+          "created_at"=>$Sep
+      ],
+      [
+        "u_id"=>6,
+        "s_id"=>3,
+        "created_at"=>$Sep
+    ],
+      [
+          "u_id"=>4,
+          "s_id"=>3,
+          "created_at"=>$Sep
+      ],
+      [
+        "u_id"=>3,
+        "s_id"=>3,
+        "created_at"=>$Sep
+    ],
+    [
+      "u_id"=>8,
+      "s_id"=>3,
+      "created_at"=>$Sep
+  ],
+
+      [
+          "u_id"=>1,
+          "s_id"=>3,
+          "created_at"=>$Nov
+      ],
+      [
+        "u_id"=>3,
+        "s_id"=>3,
+        "created_at"=>$Nov
+    ],
+    [
+      "u_id"=>8,
+      "s_id"=>3,
+      "created_at"=>$Nov
+  ],
+
+      [
+          "u_id"=>1,
+          "s_id"=>3,
+          "created_at"=>$Dec
+      ],
+      [
+        "u_id"=>3,
+        "s_id"=>3,
+        "created_at"=>$Dec
+    ],
+    [
+      "u_id"=>8,
+      "s_id"=>3,
+      "created_at"=>$Dec
+  ],
+  [
+    "u_id"=>3,
+    "s_id"=>3,
+    "created_at"=>$Dec
+],
+
+
+      );
+    DB::table('visitors')->insert($roles);
+    }
+}

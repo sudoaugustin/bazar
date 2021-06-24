@@ -1,0 +1,29 @@
+{
+    "private": true,
+    "scripts": {
+        "mix": "npx mix",
+        "watch": "npx mix watch"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.2.6",
+        "axios": "^0.19",
+        "bootstrap": "^4.1.0",
+        "cross-env": "^5.1",
+        "jquery": "^3.4.1",
+        "laravel-mix": "^6.0.24",
+        "lodash": "^4.17.13",
+        "popper.js": "^1.12",
+        "postcss": "^8.3.5",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.15.2",
+        "sass-loader": "^7.1.0",
+        "tailwindcss": "^2.2.2",
+        "vue": "^2.5.17",
+        "vue-template-compiler": "^2.6.11"
+    },
+    "proxy": "http://localhost:8000/app",
+    "dependencies": {
+        "apexcharts": "^3.15.5",
+        "fusioncharts": "^3.15.0-sr.1"
+    }
+}
